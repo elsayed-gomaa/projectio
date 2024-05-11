@@ -11,6 +11,8 @@
     margin: 0;
 
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 body{
@@ -187,7 +189,7 @@ display: none;
 /*end header*/
 /*start landing*/
 .landing{
-    background-image:url(/html/img2.jpg.jpg);
+    background-image:url(../image/landing.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
@@ -337,6 +339,7 @@ padding-right: 82px;
     width: 360px;
     height: 268px;
    margin-left: 100px;
+  
 }
 @media(max-width:1199px){
     .imge-column {
